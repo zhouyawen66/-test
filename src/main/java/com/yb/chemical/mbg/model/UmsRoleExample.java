@@ -217,6 +217,7 @@ public class UmsRoleExample {
 
         public Criteria andNameIn(List<String> values) {
             addCriterion("name in", values, "name");
+            System.out.println();
             return (Criteria) this;
         }
 
